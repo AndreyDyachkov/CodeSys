@@ -1,4 +1,4 @@
-// into upper window in CodeSys
+// into the upper window in CodeSys:
 PROGRAM PLC_PRG
 VAR
 	ixStart: BOOL;
@@ -7,7 +7,7 @@ VAR
 	mwMyInt: INT;
 END_VAR
 
-// into lower window in CodeSys
+// into the lower window in CodeSys:
 qxKM1:= (ixStart OR qxKM1) AND NOT ixStop;
 
 IF qxKM1 = TRUE THEN
